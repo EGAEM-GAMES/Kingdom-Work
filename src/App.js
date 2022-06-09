@@ -1,12 +1,20 @@
 import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
+class App extends Component {
+  constructor(){
+    super();
+  }
+  render(){    
+    const timeCurrent = new Date();
+    return (
+        <div className='Date'>
 
-    </div>
-  );
-}
-
+        </div>
+      );
+    }
+  }
 export default App;
+
